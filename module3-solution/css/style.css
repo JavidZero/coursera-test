@@ -41,14 +41,26 @@ body{
 
 /* END OF HEADER*/
 
-#cbs {
-	height: 1000px;
-	margin-bottom: 10px;
+#chicken, #beef, #sushi {
+	height: 700px;
+	overflow: hidden;
+	margin-bottom: 10px; 
+}
+
+.details {
+	height: 700px;
+	padding-left: 5px;
+	padding-right: 5px;
 	background-color: grey;
+
 }
 
 #menu-header {
 
 	margin-bottom: 15px;
 
+}
+
+#menues{
+	margin: 0 auto;
 }
